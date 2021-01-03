@@ -72,6 +72,10 @@ extra:
   recipe-maintainers:
     - conda-forge/r
     - coatless
+    - eddelbuettel
+    - rcurtin
+    - zoq
+    - Yashwants19
 
 # Package: mlpack
 # Title: 'Rcpp' Integration for the 'mlpack' Library
