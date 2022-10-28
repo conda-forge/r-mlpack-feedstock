@@ -1,4 +1,4 @@
-{% set version = "3.4.2.1" %}
+{% set version = "4.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,12 +10,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mlpack_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mlpack/mlpack_{{ version }}.tar.gz
-  sha256: 7975055ed33ab156475db0b67261ed64462ada07129f27bf8c39595c9954173b
+  sha256: b2e2589c1e160782efca84199d8223fe0636d568f56db8092ba742735a259ef2
 
 build:
   merge_build_host: true  # [win]
   skip: true  # [r_base == "3.6"]
-  number: 1
+  number: 0
 
   rpaths:
     - lib/R/lib/
