@@ -3,6 +3,7 @@ About r-mlpack-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mlpack-feedstock/blob/main/LICENSE.txt)
 
+
 About r-mlpack
 --------------
 
@@ -13,6 +14,7 @@ Package license: BSD-3-Clause
 Summary: A fast, flexible machine learning library, written in C++, that aims to provide fast, extensible implementations of cutting-edge machine learning algorithms.  See also Curtin et al. (2018) <doi:10.21105/joss.00726>.
 
 Development: https://github.com/mlpack/mlpack
+
 About r-mlpack
 --------------
 
