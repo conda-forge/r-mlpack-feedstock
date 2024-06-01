@@ -15,7 +15,7 @@ source:
 build:
   merge_build_host: true  # [win]
   number: 0
-  skip: true  # [r_base == "4.2"]
+  skip: true  # [r_base == "4.2" or win]
   rpaths:
     - lib/R/lib/
     - lib/
