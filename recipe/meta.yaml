@@ -1,4 +1,4 @@
-{% set version = "4.6.0" %}
+{% set version = "4.6.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mlpack_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mlpack/mlpack_{{ version }}.tar.gz
-  sha256: 7bf594a3aa8f4e817beaf0117ebd53da94adcab89067283f5118a1b945984b37
+  sha256: 0db9ef0e250c3995ca9b3cac6c9b075623301226943cf87a617f3d480c04fa6f
 
 build:
   number: 0
