@@ -12,7 +12,7 @@ source:
   sha256: aba2c1024978d11abbeea887e751b772ee4bcfb209023924054c28cc48b52ec4
 
 build:
-  number: 0
+  number: 1
   skip: true  # [r_base == "4.2" or win]
   rpaths:
     - lib/R/lib/
